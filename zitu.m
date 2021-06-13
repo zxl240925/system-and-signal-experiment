@@ -1,0 +1,13 @@
+x = linspace(-2*pi,2*pi,150);
+subplot(221);
+y1 = sin(x);
+plot(x,y1);
+subplot(222);
+y2 = 2.* sin(x) + cos(x);
+plot(x,y2);
+subplot(223);
+y3 = cos(x);
+plot(x,y3);
+subplot(224);
+y4 = 5.*sin(x) - 3.*cos(x);
+plot(x,y4);
